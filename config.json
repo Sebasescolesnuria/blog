@@ -11,10 +11,10 @@
     "conf_pro":{
         "driver":"mysql",
         "dbhost":"nose.cesnuria.com",
-        "dbname":"NoSe_prouf1",
-        "dbuser":"NoSe_prouf1",
+        "dbname":"NoSe_base",
+        "dbuser":"NoSe_base",
         "dbpass":"linuxlinux",
-        "web":"/m7/Activitat2UF2/",
-        "root":"/m7/Activitat2UF2/"
+        "web":"/m7/blog/",
+        "root":"/m7/blog/"
     }
 }
