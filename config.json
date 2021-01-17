@@ -3,7 +3,7 @@
         "driver":"mysql",
         "dbhost":"localhost", 
         "dbname":"base",
-        "dbuser":"base",
+        "dbuser":"root",
         "dbpass":"linuxlinux",
         "web":"/",
         "root":"/"
