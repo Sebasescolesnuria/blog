@@ -1,0 +1,81 @@
+body{background:#59ABE3;margin:0 ;padding:0;}
+.form{width:340px;height:400px;background:#e6e6e6;border-radius:8px;box-shadow:0 0 40px -10px #000;margin:calc(40vh - 220px) auto;padding:20px 30px;max-width:calc(100vw - 40px);box-sizing:border-box;font-family:'Montserrat',sans-serif;position:relative}
+h2{margin:10px 0;padding-bottom:10px;width:180px;color:#00a2be;border-bottom:3px solid #78788c}
+input{width:100%;padding:10px;box-sizing:border-box;background:none;outline:none;resize:none;border:0;font-family:'Montserrat',sans-serif;transition:all .3s;border-bottom:2px solid #bebed2}
+input:focus{border-bottom:2px solid #78788c}
+p:before{content:attr(type);display:block;margin:28px 0 0;font-size:14px;color:#5a5a5a}
+.button{float:right;padding:8px 12px;margin:8px 0 0;font-family:'Montserrat',sans-serif;border:2px solid #78788c;background:0;color:#5a5a6e;cursor:pointer;transition:all .3s}
+.button:hover{background:#78788c;color:#fff}
+
+.btn-open-popup{
+    text-decoration: none;
+    top:1%;
+    left:25%;
+    position: absolute;
+    color: #006977;
+    display: block;
+    background: white;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+.btn-open-popup2{
+    text-decoration: none;
+    top:1%;
+    left:45%;
+    position: absolute;
+    color: #006977;
+    display: block;
+    background: white;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+.btn-open-popup3{
+    text-decoration: none;
+    top:1%;
+    left:65%;
+    position: absolute;
+    color: #006977;
+    display: block;
+    background: white;
+    padding: 20px 50px;
+    border-radius: 50px;
+}
+.container-all{
+    position: fixed;
+    padding: 20px;
+    visibility: hidden;
+    opacity: 0;
+}
+.container-all:target{
+    border-radius:8px;
+    top:20%;
+    left:40%;
+    background: rgba(0,0,0,0.8);
+    visibility: visible;
+    opacity: 1;
+}
+.container-all:target .popup{
+    visibility: visible;
+}
+.popup{
+    width: 100%;
+    height: 390px;
+    position: relative;
+    display: flex;
+    visibility: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.btn-close-popup{
+    border-top:1px solid black; 
+    border-right:1px solid black; 
+    text-decoration: none;
+    position: absolute;
+    right: -20px;
+    top: -20px;
+    padding: 20px;
+    background: white;
+    color: black;
+    border-radius: 50%;
+    line-height: 10px;
+}
